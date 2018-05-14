@@ -16,7 +16,7 @@ function iterate(array,callback) {
     array.forEach(element,callback)
   }
 
-}
+
 
 
 
