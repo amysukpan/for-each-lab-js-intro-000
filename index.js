@@ -13,8 +13,8 @@ function iterativeLog(element,index,array){
 // Call `.forEach()` on this array, passing the callback to `.forEach()`.
 // Then return the array that you initialized.
 
-function iterate(array,callback) {
-    array = [1,2,3,4]
+function iterate(callback) {
+    var array = [1,2,3,4]
     array.forEach(callback)
     return array
   }
