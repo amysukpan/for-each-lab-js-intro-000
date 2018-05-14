@@ -2,9 +2,9 @@
 // Call `.forEach()` on this array, and inside the callback,
 // log each element with the format `${index}: ${element}`.
 function iterativeLog(array){
-  array.forEach((element,index,array) {
-  console.log (`${index}: ${element}`)
-  }
+  array.forEach((element,index,array) => {
+    console.log (`${index}: ${element}`)
+    }
 }
 // Define a function, `iterate`, that accepts a callback.
 // Within the `iterate()` function, you should initialize an array.
