@@ -11,7 +11,7 @@ function iterativeLog(array){
 // It can contain anything you want, but make sure that it is not empty!
 // Call `.forEach()` on this array, passing the callback to `.forEach()`.
 // Then return the array that you initialized.
-function iterate(array,callback) {
+function iterate(array) {
     var array = [1,2,3,4,5,6,7]
     array.forEach(element,callback)
   }
