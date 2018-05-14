@@ -15,7 +15,7 @@ function iterativeLog(element,index,array){
 
 function iterate(array,callback) {
     array = [1,2,3,4]
-    array.forEach(element,callback)
+    array.forEach(callback)
     return array
   }
 
