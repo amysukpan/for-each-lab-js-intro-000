@@ -14,7 +14,7 @@ function iterativeLog(element,index,array){
 // Then return the array that you initialized.
 
 function iterate(array,callback) {
-    var array = [1,2,3,4,5,6,7]
+    array = [1,2,3,4]
     array.forEach(element,callback)
     return array
   }
@@ -27,5 +27,5 @@ function iterate(array,callback) {
 // Call `.forEach()` on the array, passing the callback as the `forEach` callback.
 
 function doToArray(array,callback){
-  array.forEach(array,callback)
+  array.forEach(element,callback)
 }
