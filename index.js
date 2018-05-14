@@ -13,7 +13,7 @@ function iterativeLog(array){
 // Then return the array that you initialized.
 function iterate(array) {
     var array = [1,2,3,4,5,6,7]
-    array.forEach(element,callback)
+    array.forEach(element)
   }
 
 
